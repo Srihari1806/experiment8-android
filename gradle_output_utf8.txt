@@ -1,0 +1,84 @@
+﻿
+[Incubating] Problems report is available at: file:///C:/Users/KIIT0001/Downloads/AD%20LAB/Experiment8/build/reports/problems/problems-report.html
+.\gradlew.bat : 
+At line:1 char:1
++ .\gradlew.bat 
+assembleRelease > 
+gradle_output.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (:String  
+  ) [], RemoteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+FAILURE: Build completed 
+with 2 failures.
+
+1: Task failed with an 
+exception.
+-----------
+* What went wrong:
+org/gradle/api/internal/HasCo
+nvention
+> org.gradle.api.internal.Has
+Convention
+
+* Try:
+> Run with --stacktrace 
+option to get the stack 
+trace.
+> Run with --info or --debug 
+option to get more log 
+output.
+> Run with --scan to get 
+full insights from a Build 
+Scan (powered by Develocity).
+> Get more help at 
+https://help.gradle.org.
+=============================
+=============================
+====================
+
+2: Task failed with an 
+exception.
+-----------
+* What went wrong:
+Failed to query the value of 
+property 
+'buildFlowServiceProperty'.
+> Could not isolate value org
+.jetbrains.kotlin.gradle.plug
+in.statistics.BuildFlowServic
+e$Parameters_Decorated@6364e4
+f9 of type 
+BuildFlowService.Parameters
+   > Build completed with 1 
+failures.
+      > org/gradle/api/intern
+al/HasConvention
+
+* Try:
+> Run with --stacktrace 
+option to get the stack 
+trace.
+> Run with --info or --debug 
+option to get more log 
+output.
+> Run with --scan to get 
+full insights from a Build 
+Scan (powered by Develocity).
+> Get more help at 
+https://help.gradle.org.
+=============================
+=============================
+====================
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 1s
